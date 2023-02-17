@@ -1,0 +1,7 @@
+Date of creation: February 17, 2023
+Title: On and Off Simple website Program
+Description:
+    This is my first day of my own coding challenge in making a good responsive website. Images used are quite hideous, but
+    that's not the point of the program. Simple functions were used into implementing this website.
+
+    
