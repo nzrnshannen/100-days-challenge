@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+
+    <style>
+        #color{
+            height: 200px;
+            line-height: 200px;
+            color: white;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #color:hover{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+    function changeColor(element)
+    {
+        var currentColor = element.style.backgroundColor;
+        if(currentColor=="red")
+        {
+            element.style.backgroundColor = "green";
+        }
+        else if(currentColor=="green")
+        {
+            element.style.backgroundColor = "black";
+        }
+        else if(currentColor=="black")
+        {
+            element.style.backgroundColor = "yellow";
+            document.getElementById('color').style.color= "black";
+        }
+        else
+        {
+            element.style.backgroundColor = "red";
+            document.getElementById('color').style.color = "white";
+        }
+    }   
+
+
+    </script>
+    <div id = "color" onclick="changeColor(this)" style="background-color: red;">
+            Tap to change my color!
+    </div>
+    
+</body>
+</html>
