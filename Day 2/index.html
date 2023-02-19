@@ -9,29 +9,7 @@
     <title>Day 2</title>
 </head>
 <body>
-    <script">
-    function changeColor(element)
-    {
-        var currentColor = element.style.backgroundColor;
-        if(currentColor=="red")
-        {
-            element.style.backgroundColor = "green";
-        }
-        else if(currentColor=="green")
-        {
-            element.style.backgroundColor = "black";
-        }
-        else if(currentColor=="black")
-        {
-            element.style.backgroundColor = "yellow";
-            document.getElementById('color').style.color= "black";
-        }
-        else
-        {
-            element.style.backgroundColor = "red";
-            document.getElementById('color').style.color = "white";
-        }
-    }   
+    <script src="test.js" defer>   
     </script>
 
     <div id = "color" onclick="changeColor(this)" style="background-color: red;">
