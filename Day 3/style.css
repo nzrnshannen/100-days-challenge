@@ -1,0 +1,10 @@
+div{
+    cursor: pointer;
+}
+
+div img{
+    float: left;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
