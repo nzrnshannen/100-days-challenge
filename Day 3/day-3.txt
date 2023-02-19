@@ -1,0 +1,5 @@
+Date of creation: February 19, 2023
+Title: Image shuffle
+Description:
+    A simple responsive website using functions and conditional statement, wherein each
+    click of an image would result to a different image. 
