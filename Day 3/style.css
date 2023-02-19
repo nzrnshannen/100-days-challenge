@@ -1,8 +1,8 @@
-div{
+.clickImage{
     cursor: pointer;
 }
 
-div img{
+.clickImage img{
     float: left;
     width: 600px;
     height: 600px;
