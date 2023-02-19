@@ -19,3 +19,29 @@ function fun2(){
 
 btn1.addEventListener('click', fun1);
 btn2.addEventListener('click', fun2);
+
+function changeImage()
+{
+    var image = document.getElementById('myImage');
+
+    if(image.src.match("red.png"))
+    {
+        image.src = "yellow.png";
+    }
+    else if(image.src.match("yellow.png"))
+    {
+        image.src="blue.png";
+    }
+    else if(image.src.match("blue.png"))
+    {
+        image.src = "pink.png";
+    }
+    else if(image.src.match("pink.png"))
+    {
+        image.src = "brown.png";
+    }
+    else
+    {
+        image.src = "red.png";
+    }
+}
