@@ -12,3 +12,9 @@ console.log(listItems);
 const items = document.getElementsByTagName('li');
 console.log(items);
 
+//querySelector()
+const container = document.querySelector('div');
+console.log(container);
+
+
+//querySelectorAll()
