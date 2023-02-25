@@ -5,5 +5,9 @@ console.log(title);
 
 //getElementByClass();
 
-const listItem = document.getElementsByClassName('list-items');
-console.log(listItem);
+const listItems = document.getElementsByClassName('list-items');
+console.log(listItems);
+
+//getElementByTagName();
+const items = document.getElementsByTagName('li');
+console.log(items);
